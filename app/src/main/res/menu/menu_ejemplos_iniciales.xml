@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tanjiro"
+        android:title="@string/tanjiro" />
+
+    <item
+        android:id="@+id/luffy"
+        android:title="@string/luffy" />
+
+    <item
+        android:id="@+id/spike"
+        android:title="@string/spike" />
+
+</menu>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Prueba Tecnica ERA</string>
+
+    <!--FRAGMENT_MAIN-->
+    <string name="go_to_initials">Ir a iniciales</string>
+    <string name="go_to_pokemon">Ir a pokemon</string>
+
+    <!--FRAGMENT_INICIALES-->
+    <string name="header_title">INICIALES</string>
+    <string name="example">Ejemplos</string>
+    <string name="enter_url">Ingresa la url de la imagen</string>
+    <string name="url">Url</string>
+    <string name="enter_name">Ingresa el nombre del usuario</string>
+    <string name="name">Nombre</string>
+    <string name="apply">Generar</string>
+    <string name="all_fields_required">Por favor ingrese todos los campos</string>
+
+    <string name="tanjiro">Tanjiro Kamado</string>
+    <string name="luffy">Monkey D Luffy</string>
+    <string name="spike">Spike Spiegel</string>
+
+    <string name="tanjiro_photo">https://elcomercio.pe/resizer/v2/6FAR7QTRW5DQ5CMMC3HFHEOC6Y.jpg?auth=cfd3bd3907b4bd00d76dc1207ce4dafce5fbd60ebbf7381e0d5bb406e7d940aa&amp;width=1200&amp;height=810&amp;quality=90&amp;smart=true</string>
+    <string name="luffy_photo">https://elcomercio.pe/resizer/v2/KZWXP7XELJE4PGKPJGNMZKZAGM.jpg?auth=9c1c2a0e825527d67556fe28ea21b9c92355163de1dc9a49bd4c302cb3539fc5&amp;width=1200&amp;height=810&amp;quality=90&amp;smart=true</string>
+    <string name="spike_photo">https://openpsychometrics.org/tests/characters/test-resources/pics/CBP/1.jpg</string>
+
+    <!--POKEMON-->
+    <string name="header_pokemon">POKÉMON</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="tipos">Tipo</string>
+    <string name="ver_underline"><u>Ver mas</u></string>
+    <string name="number_pokemon">No. %d</string>
+
+    <!--POKEMON_DETAILS-->
+    <string name="header_pokemon_details">INFORMACION DEL POKÉMON</string>
+
+    <!--ALERT_FALLO_POKEMON-->
+    <string name="alert_title_fail_get_pokemon">ERROR</string>
+    <string name="alert_message_fail_get_pokemon">No se pudo obtener la lista</string>
+    <string name="close">Cerrar</string>
+    <string name="reintentar">Reintentar</string>
+
+    <!--FAVORITOS-->
+    <string name="header_title_favoritos">FAVORITOS</string>
+    <string name="ver">Ver</string>
+
+</resources>

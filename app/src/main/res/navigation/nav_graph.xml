@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="Home">
+
+        <action
+            android:id="@+id/action_home_to_initials"
+            app:destination="@id/fragmentInitials" />
+
+        <action
+            android:id="@+id/action_home_to_pokemon"
+            app:destination="@id/fragmentPokemon" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentInitials"
+        android:name="com.example.myapplication.ui.initials.InitialsFragment"
+        android:label="Fragment initials">
+
+        <action
+            android:id="@+id/action_initials_to_home"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentPokemon"
+        android:name="com.example.myapplication.ui.pokemon.PokemonFragment"
+        android:label="fragment pokemon">
+
+        <action
+            android:id="@+id/action_pkemon_to_details"
+            app:destination="@id/fragmentPokemonDetails" />
+
+        <action
+            android:id="@+id/action_pkemon_to_favorites"
+            app:destination="@id/fragmentPokemonFavorites" />
+
+        <action
+            android:id="@+id/action_pokemon_to_home"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentPokemonDetails"
+        android:name="com.example.myapplication.ui.pokemondetails.PokemonDetailsFragment"
+        android:label="fragment pokemon details">
+
+        <action
+            android:id="@+id/action_details_to_pokemon"
+            app:destination="@id/fragmentPokemon"
+            app:popUpTo="@id/fragmentPokemon"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentPokemonFavorites"
+        android:name="com.example.myapplication.ui.favorites.FavoritesFragment"
+        android:label="fragment pokemon favorites">
+
+        <action
+            android:id="@+id/action_favorites_to_pokemon"
+            app:destination="@id/fragmentPokemon"
+            app:popUpTo="@id/fragmentPokemon" />
+
+    </fragment>
+
+</navigation>
